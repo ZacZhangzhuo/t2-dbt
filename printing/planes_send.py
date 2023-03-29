@@ -38,9 +38,10 @@ frames = json_load(r"printing\data\output\out_printpoints.json")
 radii = json_load(r"printing\data\output\out_printpoints_radii.json")
 # radii = [[5] * len(frames)]
 
-velocities = [[5] *len(frames)]
 
-toggles = [[2] * len(frames)]
+velocities = [2] * len(frames)
+
+toggles = [2] * len(frames)
 
 toggles[-1]=2
 
@@ -55,8 +56,6 @@ if __name__ == "__main__":
     base_frame = Frame.from_points(ORIGIN, XAXIS_PT, YAXIS_PT)
     # base_frame = Frame(Point(548.032, 552.647, -2.884), Vector(-1.000, -0.013, 0.002), Vector(0.013, -1.000, 0.003))
 
-    i=0
-
     # Transform all frames from slicing location to robot coordinate system
     T = Transformation.from_frame_to_frame(Frame.worldXY(), base_frame)
     frames = [f.transformed(T) for f in frames]
@@ -67,5 +66,5 @@ if __name__ == "__main__":
 
     # IP_ADDRESS = "127.0.0.1"
     # Send all points using send_printpath function implemented in the RTDE Wrapper
-    rtde.send_printpath(frames, velocities[i], MAX_ACCEL, radii[i], toggles[i], ip=IP_ADDRESS)
-    i+=1
+    rtde.send_printpath(frames, velocities, MAX_ACCEL, radii, toggles, ip=IP_ADDRESS)
+    
