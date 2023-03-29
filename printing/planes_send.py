@@ -45,7 +45,7 @@ toggles = [2] * len(frames)
 
 toggles[-1]=2
 
-# Use the data to execute the printpath
+# Use the data to execute the printpathA
 if __name__ == "__main__":
     # print (velocities, toggles, radii)
     # Create base frame with measured points
