@@ -1,5 +1,6 @@
 
 printing\data\output\out_printpoints.json
+printing\data\output\out_printpoints_radii.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
