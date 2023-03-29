@@ -40,7 +40,7 @@ radii = json_load(r"printing\data\output\out_printpoints_radii.json")
 
 
 velocities = [2] * len(frames)
-
+velocities[0] = 10
 toggles = [2] * len(frames)
 
 toggles[-1]=2
