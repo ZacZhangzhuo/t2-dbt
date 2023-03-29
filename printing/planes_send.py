@@ -5,7 +5,7 @@ from data import rtde_wrapper as rtde
 from compas.geometry import Frame, Vector, Point, Transformation, Translation
 from compas.data import json_load
 
-with open(r"data\master_navigation_data.json", "r") as f:
+with open(r"printing\data\master_navigation_data.json", "r") as f:
     data = json.load(f)
 
 origin = data["origin"]
@@ -33,18 +33,20 @@ print("Print data loaded :", os.path.join(DATA_OUTPUT_FOLDER, PRINT_FILE_NAME))
 
 ####################################################################
 # Define print data containers as empty lists
-frames = json_load(r"data\output\out_printpoints.json")
+frames = json_load(r"printing\data\output\out_printpoints.json")
 
-velocities = [[20] *len(frames)]* len(frames)
-radii = [[5] * len(frames)]* len(frames)
-toggles = [[2] * len(frames)]* len(frames)
+radii = json_load(r"printing\data\output\out_printpoints_radii.json")
+# radii = [[5] * len(frames)]
 
+velocities = [[5] *len(frames)]
+
+toggles = [[2] * len(frames)]
 
 toggles[-1]=2
 
 # Use the data to execute the printpath
 if __name__ == "__main__":
-    print (velocities, toggles, radii)
+    # print (velocities, toggles, radii)
     # Create base frame with measured points
     ORIGIN = Point(origin[0], origin[1], origin[2])
     XAXIS_PT = Point(origin_x[0], origin_x[1], origin_x[2])
