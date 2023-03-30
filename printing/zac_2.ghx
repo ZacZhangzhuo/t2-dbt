@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>-3074</X>
-                  <Y>-9368</Y>
+                  <X>-17</X>
+                  <Y>-538</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">1.25</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.1559687</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -85,9 +85,9 @@
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">115</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">111</item>
           </items>
-          <chunks count="115">
+          <chunks count="111">
             <chunk name="Object" index="0">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
@@ -6842,7 +6842,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">6f0013fc-bcd3-4cca-9fef-a9877eba97a3</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Panel</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">1</item>
                     <item name="Source" index="0" type_name="gh_guid" type_code="9">8b0a8560-a8b9-4b11-956d-ae5601cc4f63</item>
@@ -7442,7 +7442,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2446</X>
                           <Y>7856</Y>
@@ -7453,6 +7453,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2496</X>
                           <Y>7878</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -7467,7 +7468,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2448</X>
                               <Y>7858</Y>
@@ -7478,6 +7479,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2466</X>
                               <Y>7868</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7494,7 +7496,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2448</X>
                               <Y>7878</Y>
@@ -7505,6 +7507,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2466</X>
                               <Y>7888</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7520,7 +7523,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2511</X>
                               <Y>7858</Y>
@@ -7531,6 +7534,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2529</X>
                               <Y>7878</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7554,7 +7558,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3292</X>
                           <Y>7866</Y>
@@ -7565,6 +7569,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3351</X>
                           <Y>7888</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -7580,7 +7585,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3294</X>
                               <Y>7868</Y>
@@ -7591,6 +7596,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3316.5</X>
                               <Y>7878</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7606,7 +7612,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3294</X>
                               <Y>7888</Y>
@@ -7617,6 +7623,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3316.5</X>
                               <Y>7898</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -7658,7 +7665,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3366</X>
                               <Y>7868</Y>
@@ -7669,6 +7676,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3379.5</X>
                               <Y>7888</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7697,13 +7705,14 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="1">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2549</X>
                           <Y>7983</Y>
                           <W>120</W>
                           <H>20</H>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -7726,7 +7735,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="6">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2119</X>
                           <Y>8003</Y>
@@ -7737,6 +7746,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2169</X>
                           <Y>8035</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -7751,7 +7761,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2121</X>
                               <Y>8005</Y>
@@ -7762,6 +7772,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2139</X>
                               <Y>8020</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7778,7 +7789,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2121</X>
                               <Y>8035</Y>
@@ -7789,6 +7800,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2139</X>
                               <Y>8050</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7805,7 +7817,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2184</X>
                               <Y>8005</Y>
@@ -7816,6 +7828,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2210</X>
                               <Y>8015</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7832,7 +7845,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2184</X>
                               <Y>8025</Y>
@@ -7843,6 +7856,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2210</X>
                               <Y>8035</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7860,7 +7874,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2184</X>
                               <Y>8045</Y>
@@ -7871,6 +7885,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2210</X>
                               <Y>8055</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -7895,7 +7910,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="3">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1914</X>
                           <Y>8036</Y>
@@ -7906,6 +7921,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1965</X>
                           <Y>8050</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -7919,7 +7935,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1916</X>
                               <Y>8038</Y>
@@ -7930,6 +7946,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1934.5</X>
                               <Y>8050</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -7970,7 +7987,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1980</X>
                               <Y>8038</Y>
@@ -7981,6 +7998,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1997.5</X>
                               <Y>8050</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8009,7 +8027,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2005</X>
                           <Y>7813</Y>
@@ -8020,6 +8038,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2049.6</X>
                           <Y>7825.6</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -8043,7 +8062,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2296</X>
                           <Y>8023</Y>
@@ -8054,6 +8073,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2344</X>
                           <Y>8055</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="ParameterData">
@@ -8080,7 +8100,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2298</X>
                                   <Y>8025</Y>
@@ -8091,6 +8111,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2315</X>
                                   <Y>8035</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -8106,7 +8127,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="2">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2298</X>
                                   <Y>8045</Y>
@@ -8117,6 +8138,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2315</X>
                                   <Y>8055</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                             <chunk name="PersistentData">
@@ -8152,7 +8174,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="2">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2298</X>
                                   <Y>8065</Y>
@@ -8163,6 +8185,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2315</X>
                                   <Y>8075</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                             <chunk name="PersistentData">
@@ -8199,7 +8222,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2359</X>
                                   <Y>8025</Y>
@@ -8210,6 +8233,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2369.5</X>
                                   <Y>8040</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -8227,7 +8251,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2359</X>
                                   <Y>8055</Y>
@@ -8238,6 +8262,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2369.5</X>
                                   <Y>8070</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -8264,7 +8289,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="7">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2965</X>
                           <Y>7882</Y>
@@ -8275,6 +8300,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3023</X>
                           <Y>7934</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -8288,7 +8314,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2967</X>
                               <Y>7884</Y>
@@ -8299,6 +8325,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2989</X>
                               <Y>7894</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -8334,7 +8361,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2967</X>
                               <Y>7904</Y>
@@ -8345,6 +8372,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2989</X>
                               <Y>7914</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -8381,7 +8409,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2967</X>
                               <Y>7924</Y>
@@ -8392,6 +8420,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2989</X>
                               <Y>7934</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -8428,7 +8457,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2967</X>
                               <Y>7944</Y>
@@ -8439,6 +8468,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2989</X>
                               <Y>7954</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -8474,7 +8504,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2967</X>
                               <Y>7964</Y>
@@ -8485,6 +8515,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2989</X>
                               <Y>7974</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -8520,7 +8551,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3038</X>
                               <Y>7884</Y>
@@ -8531,6 +8562,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3060.5</X>
                               <Y>7934</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8556,7 +8588,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2609</X>
                           <Y>7924</Y>
@@ -8567,6 +8599,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2609.396</X>
                           <Y>7924.495</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -8601,7 +8634,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2633</X>
                           <Y>7944</Y>
@@ -8612,6 +8645,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2633.128</X>
                           <Y>7944.896</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -8647,7 +8681,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1222</X>
                           <Y>7597</Y>
@@ -8658,6 +8692,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1247.112</X>
                           <Y>7609</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="PersistentData">
@@ -8725,7 +8760,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1341</X>
                           <Y>7611</Y>
@@ -8736,6 +8771,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1409</X>
                           <Y>7633</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -8750,7 +8786,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1343</X>
                               <Y>7613</Y>
@@ -8761,6 +8797,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1370</X>
                               <Y>7633</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8776,7 +8813,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1424</X>
                               <Y>7613</Y>
@@ -8787,6 +8824,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1448.5</X>
                               <Y>7623</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8802,7 +8840,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1424</X>
                               <Y>7633</Y>
@@ -8813,6 +8851,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1448.5</X>
                               <Y>7643</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8837,7 +8876,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="5">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1951</X>
                           <Y>7562</Y>
@@ -8848,6 +8887,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2019</X>
                           <Y>7584</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -8862,7 +8902,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1953</X>
                               <Y>7564</Y>
@@ -8873,6 +8913,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1980</X>
                               <Y>7574</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8889,7 +8930,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1953</X>
                               <Y>7584</Y>
@@ -8900,6 +8941,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1980</X>
                               <Y>7594</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -8939,7 +8981,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2034</X>
                               <Y>7564</Y>
@@ -8950,6 +8992,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2062</X>
                               <Y>7574</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -8965,7 +9008,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2034</X>
                               <Y>7584</Y>
@@ -8976,6 +9019,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2062</X>
                               <Y>7594</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9000,7 +9044,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="5">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1656</X>
                           <Y>7577</Y>
@@ -9011,6 +9055,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1737</X>
                           <Y>7609</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -9024,7 +9069,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1658</X>
                               <Y>7579</Y>
@@ -9035,6 +9080,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1691.5</X>
                               <Y>7589</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -9070,7 +9116,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1658</X>
                               <Y>7599</Y>
@@ -9081,6 +9127,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1691.5</X>
                               <Y>7609</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -9117,7 +9164,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1658</X>
                               <Y>7619</Y>
@@ -9128,6 +9175,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1691.5</X>
                               <Y>7629</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -9163,7 +9211,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1752</X>
                               <Y>7579</Y>
@@ -9174,6 +9222,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1769</X>
                               <Y>7609</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9198,7 +9247,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="6">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1820</X>
                           <Y>7577</Y>
@@ -9209,6 +9258,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1876</X>
                           <Y>7609</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -9223,7 +9273,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1822</X>
                               <Y>7579</Y>
@@ -9234,6 +9284,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1843</X>
                               <Y>7589</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9250,7 +9301,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1822</X>
                               <Y>7599</Y>
@@ -9261,6 +9312,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1843</X>
                               <Y>7609</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9276,7 +9328,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1822</X>
                               <Y>7619</Y>
@@ -9287,6 +9339,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1843</X>
                               <Y>7629</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -9322,7 +9375,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1891</X>
                               <Y>7579</Y>
@@ -9333,6 +9386,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1911.5</X>
                               <Y>7594</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9348,7 +9402,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1891</X>
                               <Y>7609</Y>
@@ -9359,6 +9413,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1911.5</X>
                               <Y>7624</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9383,7 +9438,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="5">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1500</X>
                           <Y>7577</Y>
@@ -9394,6 +9449,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1548</X>
                           <Y>7609</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -9408,7 +9464,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1502</X>
                               <Y>7579</Y>
@@ -9419,6 +9475,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1519</X>
                               <Y>7609</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9434,7 +9491,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1563</X>
                               <Y>7579</Y>
@@ -9445,6 +9502,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1598</X>
                               <Y>7589</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9460,7 +9518,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1563</X>
                               <Y>7599</Y>
@@ -9471,6 +9529,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1598</X>
                               <Y>7609</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9486,7 +9545,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>1563</X>
                               <Y>7619</Y>
@@ -9497,6 +9556,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>1598</X>
                               <Y>7629</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9521,7 +9581,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2102</X>
                           <Y>7562</Y>
@@ -9532,6 +9592,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2163</X>
                           <Y>7584</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="ParameterData">
@@ -9557,7 +9618,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2104</X>
                                   <Y>7564</Y>
@@ -9568,6 +9629,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2127.5</X>
                                   <Y>7574</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -9577,7 +9639,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                             <item name="Access" type_name="gh_int32" type_code="3">1</item>
                             <item name="Description" type_name="gh_string" type_code="10">Optional list of values to sort synchronously</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">4c9b1d4b-d222-4ce1-afe9-de4df3466f52</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Values A</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Values Values A</item>
                             <item name="NickName" type_name="gh_string" type_code="10">Values A</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="Source" index="0" type_name="gh_guid" type_code="9">770ed0fb-f373-4197-8d96-f26b5eca9b40</item>
@@ -9585,7 +9647,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2104</X>
                                   <Y>7584</Y>
@@ -9596,6 +9658,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2127.5</X>
                                   <Y>7594</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -9612,7 +9675,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2178</X>
                                   <Y>7564</Y>
@@ -9623,6 +9686,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2201.5</X>
                                   <Y>7574</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -9630,16 +9694,16 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                         <chunk name="OutputParam" index="1">
                           <items count="7">
                             <item name="Access" type_name="gh_int32" type_code="3">1</item>
-                            <item name="Description" type_name="gh_string" type_code="10">Synchronous values in A</item>
+                            <item name="Description" type_name="gh_string" type_code="10">Synchronous values in Values A</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">fc75533a-8691-4d78-bab2-e9ab467f0277</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Values A</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Values Values A</item>
                             <item name="NickName" type_name="gh_string" type_code="10">Values A</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2178</X>
                                   <Y>7584</Y>
@@ -9650,6 +9714,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2201.5</X>
                                   <Y>7594</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -9709,7 +9774,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="5">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2383</X>
                           <Y>7582</Y>
@@ -9720,6 +9785,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2433</X>
                           <Y>7604</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -9734,7 +9800,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2385</X>
                               <Y>7584</Y>
@@ -9745,6 +9811,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2403</X>
                               <Y>7594</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9761,7 +9828,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2385</X>
                               <Y>7604</Y>
@@ -9772,6 +9839,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2403</X>
                               <Y>7614</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9787,7 +9855,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2448</X>
                               <Y>7584</Y>
@@ -9798,6 +9866,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2466</X>
                               <Y>7594</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9813,7 +9882,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2448</X>
                               <Y>7604</Y>
@@ -9824,6 +9893,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>2466</X>
                               <Y>7614</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -9849,17 +9919,18 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2269</X>
                           <Y>7582</Y>
-                          <W>95</W>
+                          <W>78</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>2317</X>
                           <Y>7614</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="ParameterData">
@@ -9885,7 +9956,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2271</X>
                                   <Y>7584</Y>
@@ -9896,6 +9967,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2288</X>
                                   <Y>7594</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -9911,7 +9983,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="2">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2271</X>
                                   <Y>7604</Y>
@@ -9922,6 +9994,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2288</X>
                                   <Y>7614</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                             <chunk name="PersistentData">
@@ -9957,7 +10030,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="2">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2271</X>
                                   <Y>7624</Y>
@@ -9968,6 +10041,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>2288</X>
                                   <Y>7634</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                             <chunk name="PersistentData">
@@ -9998,23 +10072,24 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">53ef78c8-b762-4f46-b598-3f4c1a90f1de</item>
                             <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
                             <item name="Name" type_name="gh_string" type_code="10">Item</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">Item</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">i</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2332</X>
                                   <Y>7584</Y>
-                                  <W>30</W>
+                                  <W>13</W>
                                   <H>60</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2347</X>
+                                  <X>2338.5</X>
                                   <Y>7614</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -10043,7 +10118,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1272</X>
                           <Y>7481</Y>
@@ -10054,6 +10129,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1297.237</X>
                           <Y>7493.812</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="PersistentData">
@@ -10136,7 +10212,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="6">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3566</X>
                           <Y>7848</Y>
@@ -10147,6 +10223,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3633</X>
                           <Y>7890</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -10161,7 +10238,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3568</X>
                               <Y>7850</Y>
@@ -10172,6 +10249,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3594.5</X>
                               <Y>7860</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10187,7 +10265,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3568</X>
                               <Y>7870</Y>
@@ -10198,6 +10276,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3594.5</X>
                               <Y>7880</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -10244,7 +10323,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3568</X>
                               <Y>7890</Y>
@@ -10255,6 +10334,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3594.5</X>
                               <Y>7900</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10272,7 +10352,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3568</X>
                               <Y>7910</Y>
@@ -10283,6 +10363,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3594.5</X>
                               <Y>7920</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10300,7 +10381,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3648</X>
                               <Y>7850</Y>
@@ -10311,6 +10392,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3673.5</X>
                               <Y>7890</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10336,7 +10418,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3144</X>
                           <Y>7986</Y>
@@ -10347,6 +10429,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3144.48</X>
                           <Y>7986.999</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -10380,7 +10463,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3368</X>
                           <Y>8000</Y>
@@ -10391,6 +10474,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3423</X>
                           <Y>8022</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -10406,7 +10490,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3370</X>
                               <Y>8002</Y>
@@ -10417,6 +10501,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3390.5</X>
                               <Y>8012</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10433,7 +10518,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3370</X>
                               <Y>8022</Y>
@@ -10444,6 +10529,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3390.5</X>
                               <Y>8032</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10460,7 +10546,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3438</X>
                               <Y>8002</Y>
@@ -10471,6 +10557,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3453.5</X>
                               <Y>8022</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10496,7 +10583,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3221</X>
                           <Y>8081</Y>
@@ -10507,6 +10594,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3221.481</X>
                           <Y>8081.412</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -10540,7 +10628,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3333</X>
                           <Y>7917</Y>
@@ -10551,6 +10639,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3363</X>
                           <Y>7939</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -10565,7 +10654,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3335</X>
                               <Y>7919</Y>
@@ -10576,6 +10665,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3343</X>
                               <Y>7929</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10592,7 +10682,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3335</X>
                               <Y>7939</Y>
@@ -10603,6 +10693,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3343</X>
                               <Y>7949</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10618,7 +10709,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3378</X>
                               <Y>7919</Y>
@@ -10629,6 +10720,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3397</X>
                               <Y>7939</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10648,7 +10740,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">525f3ab8-0012-47f6-9f4b-07bc08104590</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Panel</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
@@ -10656,7 +10748,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="5">
+                      <items count="6">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3248</X>
                           <Y>7922</Y>
@@ -10670,6 +10762,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3248.265</X>
                           <Y>7922.26</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="PanelProperties">
@@ -10714,7 +10807,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3941</X>
                           <Y>7950</Y>
@@ -10725,6 +10818,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3989</X>
                           <Y>7982</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="ParameterData">
@@ -10750,7 +10844,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>3943</X>
                                   <Y>7952</Y>
@@ -10761,6 +10855,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>3960</X>
                                   <Y>7962</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -10777,7 +10872,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="2">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>3943</X>
                                   <Y>7972</Y>
@@ -10788,6 +10883,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>3960</X>
                                   <Y>7982</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                             <chunk name="PersistentData">
@@ -10823,7 +10919,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="2">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>3943</X>
                                   <Y>7992</Y>
@@ -10834,6 +10930,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>3960</X>
                                   <Y>8002</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                             <chunk name="PersistentData">
@@ -10870,7 +10967,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                           <chunks count="1">
                             <chunk name="Attributes">
-                              <items count="2">
+                              <items count="3">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>4004</X>
                                   <Y>7952</Y>
@@ -10881,6 +10978,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                                   <X>4010.5</X>
                                   <Y>7982</Y>
                                 </item>
+                                <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                               </items>
                             </chunk>
                           </chunks>
@@ -10907,7 +11005,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>4180</X>
                           <Y>7970</Y>
@@ -10918,6 +11016,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>4237</X>
                           <Y>8002</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -10933,7 +11032,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4182</X>
                               <Y>7972</Y>
@@ -10944,6 +11043,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4203.5</X>
                               <Y>7982</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -10960,7 +11060,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4182</X>
                               <Y>7992</Y>
@@ -10971,6 +11071,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4203.5</X>
                               <Y>8002</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -11007,7 +11108,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4182</X>
                               <Y>8012</Y>
@@ -11018,6 +11119,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4203.5</X>
                               <Y>8022</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -11063,7 +11165,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3854</X>
                           <Y>8032</Y>
@@ -11074,6 +11176,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3854.799</X>
                           <Y>8032.487</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -11108,7 +11211,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3922</X>
                           <Y>8099</Y>
@@ -11119,6 +11222,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3922.181</X>
                           <Y>8099.87</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -11153,7 +11257,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3689</X>
                           <Y>7960</Y>
@@ -11164,6 +11268,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3689.423</X>
                           <Y>7960.886</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -11197,17 +11302,18 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>4034</X>
-                          <Y>7848</Y>
+                          <X>4140</X>
+                          <Y>7926</Y>
                           <W>111</W>
                           <H>44</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>4084</X>
-                          <Y>7870</Y>
+                          <X>4190</X>
+                          <Y>7948</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -11222,17 +11328,18 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>4036</X>
-                              <Y>7850</Y>
+                              <X>4142</X>
+                              <Y>7928</Y>
                               <W>33</W>
                               <H>40</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>4054</X>
-                              <Y>7870</Y>
+                              <X>4160</X>
+                              <Y>7948</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11249,17 +11356,18 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>4099</X>
-                              <Y>7850</Y>
+                              <X>4205</X>
+                              <Y>7928</Y>
                               <W>44</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>4121</X>
-                              <Y>7860</Y>
+                              <X>4227</X>
+                              <Y>7938</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11276,17 +11384,18 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>4099</X>
-                              <Y>7870</Y>
+                              <X>4205</X>
+                              <Y>7948</Y>
                               <W>44</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>4121</X>
-                              <Y>7880</Y>
+                              <X>4227</X>
+                              <Y>7958</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11313,7 +11422,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>1201</X>
                           <Y>7510</Y>
@@ -11324,6 +11433,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>1226.651</X>
                           <Y>7522.705</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="PersistentData">
@@ -11407,7 +11517,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3426</X>
                           <Y>7783</Y>
@@ -11418,6 +11528,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3426.722</X>
                           <Y>7783.808</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -11442,16 +11553,15 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="5">
+                  <items count="4">
                     <item name="Description" type_name="gh_string" type_code="10">Create a lofted surface through a set of section curves.</item>
-                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">639cc369-c1ad-4088-82c6-e2532f34b0c8</item>
                     <item name="Name" type_name="gh_string" type_code="10">Loft</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Loft</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>4472</X>
                           <Y>7367</Y>
@@ -11462,6 +11572,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>4531</X>
                           <Y>7389</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -11477,7 +11588,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4474</X>
                               <Y>7369</Y>
@@ -11488,6 +11599,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4496.5</X>
                               <Y>7379</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11503,7 +11615,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4474</X>
                               <Y>7389</Y>
@@ -11514,6 +11626,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4496.5</X>
                               <Y>7399</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -11555,7 +11668,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4546</X>
                               <Y>7369</Y>
@@ -11566,6 +11679,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4559.5</X>
                               <Y>7389</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11591,7 +11705,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3456</X>
                           <Y>7818</Y>
@@ -11602,6 +11716,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3456.154</X>
                           <Y>7818.842</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -11621,201 +11736,20 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
             </chunk>
             <chunk name="Object" index="101">
               <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
-                <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Numeric slider for single values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">1cdfe5ba-f292-48ff-83ce-f339a8e27b34</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>3973</X>
-                          <Y>7771</Y>
-                          <W>197</W>
-                          <H>20</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>3973.238</X>
-                          <Y>7771.41</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="Slider">
-                      <items count="7">
-                        <item name="Digits" type_name="gh_int32" type_code="3">3</item>
-                        <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Interval" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Max" type_name="gh_double" type_code="6">10</item>
-                        <item name="Min" type_name="gh_double" type_code="6">0</item>
-                        <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">8</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="102">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
-                <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Numeric slider for single values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">c7e23607-a1f2-4d23-8885-2854e781e445</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>3941</X>
-                          <Y>7678</Y>
-                          <W>197</W>
-                          <H>20</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>3941.02</X>
-                          <Y>7678.552</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="Slider">
-                      <items count="7">
-                        <item name="Digits" type_name="gh_int32" type_code="3">3</item>
-                        <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Interval" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Max" type_name="gh_double" type_code="6">10</item>
-                        <item name="Min" type_name="gh_double" type_code="6">0</item>
-                        <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">7</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="103">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
-                <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Numeric slider for single values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">5bfb4ba7-490c-4ed2-aeeb-27ce6bf912df</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>4022</X>
-                          <Y>7810</Y>
-                          <W>197</W>
-                          <H>20</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>4022.3</X>
-                          <Y>7810.68</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="Slider">
-                      <items count="7">
-                        <item name="Digits" type_name="gh_int32" type_code="3">2</item>
-                        <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Interval" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Max" type_name="gh_double" type_code="6">0.01</item>
-                        <item name="Min" type_name="gh_double" type_code="6">0</item>
-                        <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">0.01</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="104">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
-                <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="6">
-                    <item name="Description" type_name="gh_string" type_code="10">Numeric slider for single values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">acba5abd-33f9-4c93-a4d3-1da5b071f1b9</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Number Slider</item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>3960</X>
-                          <Y>7730</Y>
-                          <W>197</W>
-                          <H>20</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>3960.846</X>
-                          <Y>7730.167</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="Slider">
-                      <items count="7">
-                        <item name="Digits" type_name="gh_int32" type_code="3">3</item>
-                        <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Interval" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Max" type_name="gh_double" type_code="6">10</item>
-                        <item name="Min" type_name="gh_double" type_code="6">0</item>
-                        <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">8</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="105">
-              <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">d51e9b65-aa4e-4fd6-976c-cef35d421d05</item>
                 <item name="Name" type_name="gh_string" type_code="10">Boundary Surfaces</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="5">
+                  <items count="4">
                     <item name="Description" type_name="gh_string" type_code="10">Create planar surfaces from a collection of boundary edge curves.</item>
-                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">66fa039f-13ca-4e3b-8d38-f85ce3b201ff</item>
                     <item name="Name" type_name="gh_string" type_code="10">Boundary Surfaces</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Boundary Surfaces</item>
                   </items>
                   <chunks count="3">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>4284</X>
                           <Y>7549</Y>
@@ -11826,6 +11760,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>4335</X>
                           <Y>7563</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -11841,7 +11776,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4286</X>
                               <Y>7551</Y>
@@ -11852,6 +11787,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4304.5</X>
                               <Y>7563</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11868,7 +11804,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4350</X>
                               <Y>7551</Y>
@@ -11879,6 +11815,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4374</X>
                               <Y>7563</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11887,7 +11824,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="106">
+            <chunk name="Object" index="102">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2162e72e-72fc-4bf8-9459-d4d82fa8aa14</item>
                 <item name="Name" type_name="gh_string" type_code="10">Divide Curve</item>
@@ -11903,7 +11840,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="7">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>4109</X>
                           <Y>7372</Y>
@@ -11914,6 +11851,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>4160</X>
                           <Y>7404</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -11928,7 +11866,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4111</X>
                               <Y>7374</Y>
@@ -11939,6 +11877,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4129.5</X>
                               <Y>7384</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -11955,7 +11894,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4111</X>
                               <Y>7394</Y>
@@ -11966,6 +11905,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4129.5</X>
                               <Y>7404</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -12001,7 +11941,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4111</X>
                               <Y>7414</Y>
@@ -12012,6 +11952,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4129.5</X>
                               <Y>7424</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -12048,7 +11989,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4175</X>
                               <Y>7374</Y>
@@ -12059,6 +12000,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4205.5</X>
                               <Y>7384</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12075,7 +12017,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4175</X>
                               <Y>7394</Y>
@@ -12086,6 +12028,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4205.5</X>
                               <Y>7404</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12102,7 +12045,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4175</X>
                               <Y>7414</Y>
@@ -12113,6 +12056,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4205.5</X>
                               <Y>7424</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12121,7 +12065,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="107">
+            <chunk name="Object" index="103">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c75b62fa-0a33-4da7-a5bd-03fd0068fd93</item>
                 <item name="Name" type_name="gh_string" type_code="10">Length</item>
@@ -12137,7 +12081,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="3">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3754</X>
                           <Y>7312</Y>
@@ -12148,6 +12092,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3804</X>
                           <Y>7326</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -12162,7 +12107,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3756</X>
                               <Y>7314</Y>
@@ -12173,6 +12118,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3774</X>
                               <Y>7326</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12188,7 +12134,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3819</X>
                               <Y>7314</Y>
@@ -12199,6 +12145,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3839.5</X>
                               <Y>7326</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12207,7 +12154,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="108">
+            <chunk name="Object" index="104">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9c85271f-89fa-4e9f-9f4a-d75802120ccc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Division</item>
@@ -12223,7 +12170,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="4">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3952</X>
                           <Y>7340</Y>
@@ -12234,6 +12181,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3982</X>
                           <Y>7362</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -12248,7 +12196,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3954</X>
                               <Y>7342</Y>
@@ -12259,6 +12207,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3962</X>
                               <Y>7352</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12275,7 +12224,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3954</X>
                               <Y>7362</Y>
@@ -12286,6 +12235,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>3962</X>
                               <Y>7372</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12301,7 +12251,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3997</X>
                               <Y>7342</Y>
@@ -12312,6 +12262,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4016</X>
                               <Y>7362</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12320,7 +12271,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="109">
+            <chunk name="Object" index="105">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -12337,7 +12288,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3793</X>
                           <Y>7428</Y>
@@ -12348,6 +12299,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>3793.174</X>
                           <Y>7428.86</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -12365,7 +12317,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="110">
+            <chunk name="Object" index="106">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2b2a4145-3dff-41d4-a8de-1ea9d29eef33</item>
                 <item name="Name" type_name="gh_string" type_code="10">Interpolate</item>
@@ -12381,7 +12333,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="8">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>4301</X>
                           <Y>7372</Y>
@@ -12392,6 +12344,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>4368</X>
                           <Y>7414</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -12407,7 +12360,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4303</X>
                               <Y>7374</Y>
@@ -12418,6 +12371,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4329.5</X>
                               <Y>7384</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12433,7 +12387,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4303</X>
                               <Y>7394</Y>
@@ -12444,6 +12398,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4329.5</X>
                               <Y>7404</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -12479,7 +12434,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4303</X>
                               <Y>7414</Y>
@@ -12490,6 +12445,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4329.5</X>
                               <Y>7424</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -12525,7 +12481,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4303</X>
                               <Y>7434</Y>
@@ -12536,6 +12492,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4329.5</X>
                               <Y>7444</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -12572,7 +12529,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4383</X>
                               <Y>7374</Y>
@@ -12583,6 +12540,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4405.5</X>
                               <Y>7387.333</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12598,7 +12556,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4383</X>
                               <Y>7400</Y>
@@ -12609,6 +12567,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4405.5</X>
                               <Y>7414</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12624,7 +12583,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="2">
+                          <items count="3">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>4383</X>
                               <Y>7427</Y>
@@ -12635,6 +12594,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                               <X>4405.5</X>
                               <Y>7440.667</Y>
                             </item>
+                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -12643,7 +12603,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="111">
+            <chunk name="Object" index="107">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a9a8ebd2-fff5-4c44-a8f5-739736d129ba</item>
                 <item name="Name" type_name="gh_string" type_code="10">Curve Display</item>
@@ -12769,7 +12729,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                     </item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">1</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="849">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAScwAAEnMBjCK5BwAAAvNJREFUSEutletrzXEcx9/bsYsx2SYZRlpziXK/zF2YLFozYZPlFiE0wgy5bu7EA2rLJIk84Ynm8oTiiXjA2hOeiJRof4Bazet92u90xrZ+B596dc77d77fz+f3/Vy+Rz1YUhf8F7OjXpAK6XFY+/k/BYocl0rqpMdnpZ/npPbTUutJ6WmVtInfsyAN/ipIMo7q7LQ7WDMWssEnSciSjkpFgaNT0rf5Uk2yVD5MWrdNajgjtbFuNgwFpyshi+D0URBghnSQZythLkyESQulCj4nQy4kHCCVnH+3c/Lfiq4EO+cA0bwbOzaZEIGELC14+yNSC3oVjIN+4Hzbod/aBf69k/y9Jx21dHeLA9RKP9ArYBRkQLCBkkSJ1w6W0vHpl4jX/j1mabRnU3CKQmk3zzqdoEaa4nUdOvmLtItctn+QrqJz3kul1p+ke9bg2YkFScVjZRCAgn9dI1XhPb9cGn1CqvVcsM41cND0ZunhR9byfAt6zCvpkvVt6ZA1uG5+maj5S/Y+qT4I0hWsmQrDIecNKYW2IVIZuvCl1PyWNXOktejpMAhi3eaj9Ia81aSnWnoeTLK7ar/0pFg68AIdFnyNBJ82Zi5SH8gD9zutr2WwHJbCoiY2hoX1s8Ap7WQO4pO4SA6UDwUdnyPAuZ13XXr2ACd4OIzezC3QaE1uzqN9Z7kLmdc/A9iC9nP+4m9TB85iygooZOsdUkgPr+dZ8Q3p3V0C8CZb0T7tBPAL9oVuLej3AAfN2MkJbuGM3nyNLuNYi29S7HrpszW4wIPB6Q498ZEGnIaF9U6pCxw6QMo1NoaF9cxqNP+e6lDmhbnkaOYF8n+ZlHB+T/tGhrLlCk5p+j1o16QEgjkIHcBHzeQGXHIRZ8ckZkoV/DGUWjMrzr+v8wXgPyXmL1rg0ClykVO4aas9fNslOlVFG6Qd1nul+9bgC7I/+M6yc+8LbdFTgAs4DcaDrw3PSaAHgts7IceBeZM3+xJzfgeAOyVee1birmnpFxyr9ggJ4c0XAAAAAElFTkSuQmCC</bitmap>
+                      <bitmap length="849">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAScgAAEnIBXmVb4wAAAvNJREFUSEutletrzXEcx9/bsYsx2SYZRlpziXK/zF2YLFozYZPlFiE0wgy5bu7EA2rLJIk84Ynm8oTiiXjA2hOeiJRof4Bazet92u90xrZ+B596dc77d77fz+f3/Vy+Rz1YUhf8F7OjXpAK6XFY+/k/BYocl0rqpMdnpZ/npPbTUutJ6WmVtInfsyAN/ipIMo7q7LQ7WDMWssEnSciSjkpFgaNT0rf5Uk2yVD5MWrdNajgjtbFuNgwFpyshi+D0URBghnSQZythLkyESQulCj4nQy4kHCCVnH+3c/Lfiq4EO+cA0bwbOzaZEIGELC14+yNSC3oVjIN+4Hzbod/aBf69k/y9Jx21dHeLA9RKP9ArYBRkQLCBkkSJ1w6W0vHpl4jX/j1mabRnU3CKQmk3zzqdoEaa4nUdOvmLtItctn+QrqJz3kul1p+ke9bg2YkFScVjZRCAgn9dI1XhPb9cGn1CqvVcsM41cND0ZunhR9byfAt6zCvpkvVt6ZA1uG5+maj5S/Y+qT4I0hWsmQrDIecNKYW2IVIZuvCl1PyWNXOktejpMAhi3eaj9Ia81aSnWnoeTLK7ar/0pFg68AIdFnyNBJ82Zi5SH8gD9zutr2WwHJbCoiY2hoX1s8Ap7WQO4pO4SA6UDwUdnyPAuZ13XXr2ACd4OIzezC3QaE1uzqN9Z7kLmdc/A9iC9nP+4m9TB85iygooZOsdUkgPr+dZ8Q3p3V0C8CZb0T7tBPAL9oVuLej3AAfN2MkJbuGM3nyNLuNYi29S7HrpszW4wIPB6Q498ZEGnIaF9U6pCxw6QMo1NoaF9cxqNP+e6lDmhbnkaOYF8n+ZlHB+T/tGhrLlCk5p+j1o16QEgjkIHcBHzeQGXHIRZ8ckZkoV/DGUWjMrzr+v8wXgPyXmL1rg0ClykVO4aas9fNslOlVFG6Qd1nul+9bgC7I/+M6yc+8LbdFTgAs4DcaDrw3PSaAHgts7IceBeZM3+xJzfgeAOyVee1birmnpFxyr9ggJ4c0XAAAAAElFTkSuQmCC</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">23787527-4188-46fc-8211-280a15d1b7b4</item>
                     <item name="Name" type_name="gh_string" type_code="10">Curve Display</item>
@@ -12949,7 +12909,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="112">
+            <chunk name="Object" index="108">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -12966,7 +12926,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2427</X>
                           <Y>7696</Y>
@@ -12977,6 +12937,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2427.765</X>
                           <Y>7696.041</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -12994,7 +12955,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="113">
+            <chunk name="Object" index="109">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9c53bac0-ba66-40bd-8154-ce9829b9db1a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Colour Swatch</item>
@@ -13014,7 +12975,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2518</X>
                           <Y>7760</Y>
@@ -13025,13 +12986,14 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2518.843</X>
                           <Y>7760.893</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                   </chunks>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="114">
+            <chunk name="Object" index="110">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -13048,7 +13010,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
-                      <items count="2">
+                      <items count="3">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2477</X>
                           <Y>7658</Y>
@@ -13059,6 +13021,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           <X>2477.877</X>
                           <Y>7658.702</Y>
                         </item>
+                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="Slider">
@@ -13083,7 +13046,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="10117">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</bitmap>
+          <bitmap length="6639">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</bitmap>
         </item>
       </items>
     </chunk>
