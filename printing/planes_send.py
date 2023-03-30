@@ -36,14 +36,13 @@ print("Print data loaded :", os.path.join(DATA_OUTPUT_FOLDER, PRINT_FILE_NAME))
 frames = json_load(r"printing\data\output\out_printpoints.json")
 
 radii = json_load(r"printing\data\output\out_printpoints_radii.json")
-# radii = [[5] * len(frames)]
-
 
 velocities = [2] * len(frames)
 velocities[0] = 10
-toggles = [2] * len(frames)
 
-toggles[-1]=2
+toggles = [0] * len(frames)
+
+toggles[-1]=0
 
 # Use the data to execute the printpathA
 if __name__ == "__main__":
@@ -67,4 +66,3 @@ if __name__ == "__main__":
     # IP_ADDRESS = "127.0.0.1"
     # Send all points using send_printpath function implemented in the RTDE Wrapper
     rtde.send_printpath(frames, velocities, MAX_ACCEL, radii, toggles, ip=IP_ADDRESS)
-    
